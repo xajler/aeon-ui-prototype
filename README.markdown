@@ -3,8 +3,8 @@
 ## Features
 
 * Resizable Dashboard Containers.
-* Recalculated width of Dashboard Containers depondent of containers count.
-* Dashboard View Settings to pick visible Containers, or close them in conteainer header.
+* Recalculated width of Dashboard Containers dependent of containers count.
+* Dashboard View Settings to pick visible Containers, or close them in container header.
 
 ### Screenshots
 #### Mockup (Made with Keynote)
