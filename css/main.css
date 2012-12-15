@@ -38,7 +38,7 @@ background-color: #efefef;
 
 #dashboard-settings a {
     background: transparent;
-    background-color: orange;
+    background-color: #333;
     display: block;
     width:22px;
     height:150px;
@@ -61,5 +61,7 @@ background-color: #efefef;
     font-weight:bold;
     position: absolute;
     top:90px;
-    color: #333;
+    color: #f0f4f4;
 }
+
+footer { font-size: 10px; text-transform: uppercase; color: #949494; margin-top: 55px; text-align: center;}
