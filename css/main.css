@@ -1,11 +1,11 @@
 body, html { height: 100%; }
-body { padding-top: 60px; padding-bottom: 40px; }
+body { padding-top: 50px; padding-bottom: 40px; }
 
-.container-fluid { padding-left: 24px; }
+.left-padding { padding-left: 24px; }
 
 .brand-color { color: #f0f4f4; }
 
-#content {  overflow: auto; }
+#content { overflow: auto; }
 #dashboard { list-style-type: none; margin: 0; padding: 0; white-space: nowrap; width: 100%; min-width: 1000px; }
 #dashboard li { margin: 3px 3px 3px 0; padding: 1px; display: inline-block; }
 
@@ -15,11 +15,17 @@ body { padding-top: 60px; padding-bottom: 40px; }
 .container-header { height: 23px; text-align: center; font-weight: bold; border-bottom: 2px solid #999; padding-top: 5px; }
 .container-body { padding: 10px; min-height:500px; }
 
-#backlog-header { background-color: #ac5150; }
-#current-header { background-color: #4985a6; }
-#features-header { background-color: #ec9749; }
-#ideas-header { background-color: #999; }
-#completed-header { background-color: #56844e; }
+#command-area { margin-bottom: 5px; display: block; }
+
+#command-area button { margin-loft: 20px; margin-top: 3px; }
+
+.row-fluid { clear: both; }
+
+.backlog-color { background-color: #ac5150; }
+.active-color { background-color: #4985a6; }
+.features-color { background-color: #ec9749; }
+.ideas-color { background-color: #999; }
+.completed-color { background-color: #56844e; }
 button.close { border: 1px solid #444; margin-right: 5px; opacity: .4; line-height: 15px; padding: 0 3px 3px 3px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
 button.close:hover { border: 1px solid #222; opacity: .6; }
 .header-title { font-weight: bold; }
@@ -44,8 +50,7 @@ background-color: #efefef;
     height:150px;
     position: absolute;
     top:30px;
-    right:-23px;
-    border: 1px solid #666;
+    right:-22px;
     -webkit-border-top-right-radius: 3px;
     -webkit-border-bottom-right-radius: 3px;
     -moz-border-radius-topright: 3px;
@@ -61,7 +66,7 @@ background-color: #efefef;
     font-weight:bold;
     position: absolute;
     top:90px;
-    color: #f0f4f4;
+    color: orange;
 }
 
-footer { font-size: 10px; text-transform: uppercase; color: #949494; margin-top: 55px; text-align: center;}
+footer { font-size: 10px; text-transform: uppercase; color: #949494; margin-top: 55px; text-align: center; margin-top: 0;}

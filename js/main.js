@@ -18,7 +18,7 @@ $(document).ready(function () {
     $('#dashboard #completed').hide('fast', function() {
         recalculateDashboardContainersWidth();
         $('input:checkbox[value="backlog"]').attr("checked", true);
-        $('input:checkbox[value="current"]').attr("checked", true);
+        $('input:checkbox[value="active"]').attr("checked", true);
         $('input:checkbox[value="features"]').attr("checked", true);
         $('input:checkbox[value="ideas"]').attr("checked", true);
     });
@@ -84,6 +84,6 @@ $(document).ready(function () {
     }
 
     function getKnownDashboardContainters() {
-        return ['backlog', 'current', 'features', 'ideas', 'completed'];
+        return ['backlog', 'active', 'features', 'ideas', 'completed'];
     }
 });
